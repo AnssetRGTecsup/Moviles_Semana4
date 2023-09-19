@@ -1,0 +1,51 @@
+{
+    "name": "MainInputs",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "c0ac4859-d5b7-487d-865d-aae324e3cbb0",
+            "actions": [
+                {
+                    "name": "Acceleration",
+                    "type": "Value",
+                    "id": "d23f19ff-2519-4eb2-ac64-608f7e6d648d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ecf20f42-55f8-4276-8b27-10efea57aa43",
+                    "path": "<TrackedDevice>/deviceAcceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Phone",
+            "bindingGroup": "Phone",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<OculusTrackingReference>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
