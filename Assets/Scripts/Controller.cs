@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public Transform cube;
+    [HideInInspector] public Transform cube;
+    [SerializeField] private Transform cube2;
 
     [Header("Accelerator")]
     public Vector3 dataAccelerator;

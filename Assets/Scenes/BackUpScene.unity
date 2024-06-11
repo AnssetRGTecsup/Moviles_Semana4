@@ -1134,6 +1134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 1101936168}
+  cube2: {fileID: 0}
   dataAccelerator: {x: 0, y: 0, z: 0}
   datadataAcceleratorScaled: {x: 0, y: 0, z: 0}
   useAccelerator: 0
